@@ -1,0 +1,22 @@
+{
+  "notice": "仅输出满足 k=5 匿名的年级-周-指标桶，无化名、无片段。",
+  "suppressed_buckets": 3,
+  "rows": [
+    {
+      "grade": "初一",
+      "week": "2026-W36",
+      "metric": "isolation_score",
+      "n": 6,
+      "avg": 30.8,
+      "suppressed": false
+    },
+    {
+      "grade": "初一",
+      "week": "2026-W36",
+      "metric": "mood_score",
+      "n": 6,
+      "avg": 70.8,
+      "suppressed": false
+    }
+  ]
+}

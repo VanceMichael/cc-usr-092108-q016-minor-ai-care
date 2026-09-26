@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "脱敏会话信号",
+  "description": "进入治理域的唯一输入形态：受控客户端本地抽取特征后上报，不含消息原文；任何 message/text 字段都会被读取器丢弃。",
+  "type": "object",
+  "required": ["pseudo", "at", "model", "window", "features"],
+  "properties": {
+    "pseudo": {
+      "type": "string",
+      "minLength": 1,
+      "description": "学生在治理域内的化名，不与真实姓名同表存储"
+    },
+    "at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "model": {
+      "type": "string",
+      "description": "陪伴模型版本号，须已在模型登记册登记且未停用"
+    },
+    "window": {
+      "type": "string",
+      "description": "产生信号的客户端窗口标识，不是对话内容"
+    },
+    "features": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mood_score": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "isolation_score": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "sleep_disrupt": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "self_harm_phrase": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "harm_other_phrase": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "helpless_phrase": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "ai_exclusive_bond": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "school_avoid": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "good_moment": { "type": "number", "minimum": 0, "maximum": 1000 },
+        "direct_help_request": { "type": "number", "minimum": 0, "maximum": 1000 }
+      }
+    },
+    "snippets": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "maxLength": 24,
+        "description": "长度受限的短语片段，仅对承接案件的心理老师/专职心理教师可见"
+      }
+    }
+  },
+  "not": {
+    "anyOf": [
+      { "required": ["message"] },
+      { "required": ["text"] },
+      { "required": ["content"] }
+    ]
+  }
+}

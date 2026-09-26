@@ -1,0 +1,15 @@
+{
+  "referral_id": "ref-0007",
+  "pseudo": "pseudo-lin-13",
+  "from_school_id": "school-fenghe",
+  "to_school_id": "school-linhai",
+  "requested_at": "2026-09-25T10:00+08:00",
+  "open_level": "watch",
+  "rule_pack_version": "risk-rules-v1",
+  "safety_summary": "学校在日常关怀中留意到孩子近期可能有些压力，老师会增加关心，也欢迎您在方便时陪孩子做些喜欢的事。",
+  "consent_reconfirmed": true,
+  "accepted_at": "2026-09-25T11:00+08:00",
+  "completed_at": "2026-09-26T09:00+08:00",
+  "new_case_id": "case-19",
+  "status": "completed"
+}

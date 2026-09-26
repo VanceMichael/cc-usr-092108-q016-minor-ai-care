@@ -1,0 +1,146 @@
+[
+  {
+    "unit_id": "signal-1",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-01T20:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "c545460331de662bb8f58daac7605438bd179007752447acfa184aa3bc8ccf7d",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-2",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-02T20:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "e30fe64f0a1d613905e0f0214937ec145cff6c1f44d7d1f6d345f41a51d30c8e",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-3",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-03T20:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "1930602bd49a5df23389b0747f94e2c12c70532810b58af1a4a78f5086ab4749",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-4",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-06T20:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "1f8dce87bfac0ae71ffba245f43958b1df7f907d784562f011d8a4c84f6805fc",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-5",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-07T20:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "e77b43d15d8f78174748d291fb76606d590003aaa41de1852bbec7be99455161",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-6",
+    "kind": "signal",
+    "pseudo": "pseudo-mate-1",
+    "expires_at": "2026-12-01T19:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "7d05ff695d764c0ef1f3e276f173879d4eae88372c4ab0ef26fc8e2f6d88e249",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-7",
+    "kind": "signal",
+    "pseudo": "pseudo-mate-2",
+    "expires_at": "2026-12-02T19:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "7e12a60920e5c0d556496798253c7aca997a088eb462e15a1816aba1bac7ad81",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-8",
+    "kind": "signal",
+    "pseudo": "pseudo-mate-3",
+    "expires_at": "2026-12-03T19:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "5f835bd2a6b82ca810e2d557d51572d01c909ae719f8f0d950941999c757cc8b",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-9",
+    "kind": "signal",
+    "pseudo": "pseudo-mate-4",
+    "expires_at": "2026-12-04T19:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "3d5fac800b53c12a18b468f491f0101be82aeb98efe3a1ceb8ebd65d776bd0ab",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-10",
+    "kind": "signal",
+    "pseudo": "pseudo-mate-5",
+    "expires_at": "2026-12-05T19:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "25d65ad45340f8ead4ad5ee4fb9d18fccee3f6de25d64e5729418b24e2fb8da1",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-11",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-09T19:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "f69bbecc9973f58afdc8a6093bebaad96733f70b6bc5a3bdc0f5d5a1119cd45d",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-12",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-10T19:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "13914cfec9fe01f7299706c4493241e29c96790bf96b3da9fd06434c2096427a",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-13",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-10T22:30+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "c57a4779c639cc5f09be47e6a96a5630bbf4cfd1d3bbd28fdce3f982ceef52dd",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-15",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-13T15:00+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "d72acc3e0c0055d3122a47cc334dce96faaa42a6d94a939376cb66cd0c54b43a",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-16",
+    "kind": "signal",
+    "pseudo": "pseudo-he-14",
+    "expires_at": "2026-12-15T23:05+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "f12f9058020aa91f74daed9c90244bb693f2439c88c68aa67ad1d7dc682de135",
+    "erased": true
+  },
+  {
+    "unit_id": "signal-18",
+    "kind": "signal",
+    "pseudo": "pseudo-lin-13",
+    "expires_at": "2026-12-24T08:30+08:00",
+    "purged_at": "2026-12-26T00:00+08:00",
+    "digest_before_purge": "c717fca667ac5b690e8aa57d80c79eb770f3ea17f47de745a1014b81fd9f89d8",
+    "erased": true
+  }
+]

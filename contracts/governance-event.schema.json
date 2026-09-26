@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "治理审计条目",
+  "description": "每个治理动作写入只追加哈希链；prev_hash 指向上一条，hash 覆盖条目全部内容，任何改动在 verify 时暴露。",
+  "type": "object",
+  "required": ["seq", "at", "actor", "action", "subject", "evidence", "prev_hash", "hash"],
+  "properties": {
+    "seq": { "type": "integer", "minimum": 1 },
+    "at": { "type": "string", "format": "date-time" },
+    "actor": {
+      "type": "string",
+      "description": "执行动作的人员/系统标识，如 staff-3001、guardian-7001、system"
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "consent-granted",
+        "consent-withdrawn",
+        "ingest-rejected",
+        "auto-verdict",
+        "case-opened",
+        "case-opened-manual",
+        "escalation",
+        "manual-escalation",
+        "manual-deescalation",
+        "verdict-override",
+        "staff-assigned",
+        "night-review-queued",
+        "night-review-routed",
+        "no-duty-available",
+        "guardian-notified",
+        "human-contact",
+        "case-reviewed",
+        "case-closed",
+        "referral-requested",
+        "referral-accepted",
+        "referral-completed",
+        "transfer-assigned",
+        "transfer-unassigned",
+        "rule-pack-published",
+        "model-registered",
+        "model-retired",
+        "data-purged"
+      ]
+    },
+    "subject": { "type": "string" },
+    "evidence": {
+      "type": "object",
+      "description": "脱敏证据：特征编号、等级、规则版本、时限等；不得出现会话原文"
+    },
+    "prev_hash": { "type": "string", "minLength": 1 },
+    "hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "additionalProperties": false
+}

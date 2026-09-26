@@ -1,0 +1,138 @@
+{
+  "lin_case": {
+    "case_id": "case-14",
+    "pseudo": "pseudo-lin-13",
+    "current_level": "watch",
+    "status": "closed",
+    "rule_pack_version": "risk-rules-v1",
+    "legs": [
+      {
+        "level": "watch",
+        "escalated_at": "2026-09-11T22:30+08:00",
+        "deadline_at": "2026-09-14T12:00+08:00",
+        "rule_pack_version": "risk-rules-v1",
+        "assigned_to": "staff-2001",
+        "assigned_at": "2026-09-14T07:30+08:00",
+        "contact_at": "2026-09-14T08:10+08:00",
+        "contact_by": "staff-2001",
+        "contact_qualification": "teacher",
+        "channel": "in-person",
+        "completed": true,
+        "within_sla": true
+      },
+      {
+        "level": "urgent",
+        "escalated_at": "2026-09-14T15:00+08:00",
+        "deadline_at": "2026-09-15T15:00+08:00",
+        "rule_pack_version": "risk-rules-v1",
+        "assigned_to": "staff-3001",
+        "assigned_at": "2026-09-14T15:00+08:00",
+        "contact_at": "2026-09-14T16:20+08:00",
+        "contact_by": "staff-3001",
+        "contact_qualification": "counselor",
+        "channel": "in-person",
+        "completed": true,
+        "within_sla": true
+      },
+      {
+        "level": "watch",
+        "escalated_at": "2026-09-14T17:00+08:00",
+        "deadline_at": "2026-09-15T12:00+08:00",
+        "rule_pack_version": "risk-rules-v1",
+        "assigned_to": "staff-2001",
+        "assigned_at": "2026-09-14T17:00+08:00",
+        "contact_at": "2026-09-15T10:00+08:00",
+        "contact_by": "staff-2001",
+        "contact_qualification": "teacher",
+        "channel": "in-person",
+        "completed": true,
+        "within_sla": true
+      }
+    ],
+    "all_completed": true,
+    "all_within_sla": true,
+    "contacts": [
+      {
+        "at": "2026-09-14T08:10+08:00",
+        "by": "staff-2001",
+        "qualification": "teacher",
+        "channel": "in-person",
+        "note_minimal": "早自习后简短交谈，学生表示周末独自在家，已约同桌一起打球"
+      },
+      {
+        "at": "2026-09-14T16:20+08:00",
+        "by": "staff-3001",
+        "qualification": "counselor",
+        "channel": "in-person",
+        "note_minimal": "学生主动说明是歌词创作；面谈情绪平稳，仍约定本周持续关心"
+      },
+      {
+        "at": "2026-09-15T10:00+08:00",
+        "by": "staff-2001",
+        "qualification": "teacher",
+        "channel": "in-person",
+        "note_minimal": "课间邀请加入社团招新，学生接受"
+      }
+    ]
+  },
+  "transferred_case": {
+    "case_id": "case-19",
+    "pseudo": "pseudo-lin-13",
+    "current_level": "watch",
+    "status": "open",
+    "rule_pack_version": "risk-rules-v1",
+    "legs": [
+      {
+        "level": "watch",
+        "escalated_at": "2026-09-26T09:00+08:00",
+        "deadline_at": "2026-09-28T12:00+08:00",
+        "rule_pack_version": "risk-rules-v1",
+        "assigned_to": "staff-2001",
+        "assigned_at": "2026-09-26T09:00+08:00",
+        "contact_at": null,
+        "contact_by": null,
+        "contact_qualification": null,
+        "channel": null,
+        "completed": false,
+        "within_sla": null
+      }
+    ],
+    "all_completed": false,
+    "all_within_sla": false,
+    "contacts": []
+  },
+  "he_case": {
+    "case_id": "case-17",
+    "pseudo": "pseudo-he-14",
+    "current_level": "emergency",
+    "status": "contacted",
+    "rule_pack_version": "risk-rules-v1",
+    "legs": [
+      {
+        "level": "emergency",
+        "escalated_at": "2026-09-16T23:05+08:00",
+        "deadline_at": "2026-09-16T23:35+08:00",
+        "rule_pack_version": "risk-rules-v1",
+        "assigned_to": "staff-4002",
+        "assigned_at": "2026-09-16T23:05+08:00",
+        "contact_at": "2026-09-16T23:22+08:00",
+        "contact_by": "staff-4002",
+        "contact_qualification": "psychologist",
+        "channel": "voice-call",
+        "completed": true,
+        "within_sla": true
+      }
+    ],
+    "all_completed": true,
+    "all_within_sla": true,
+    "contacts": [
+      {
+        "at": "2026-09-16T23:22+08:00",
+        "by": "staff-4002",
+        "qualification": "psychologist",
+        "channel": "voice-call",
+        "note_minimal": "夜间语音陪伴至情绪平复，约定次日家访"
+      }
+    ]
+  }
+}

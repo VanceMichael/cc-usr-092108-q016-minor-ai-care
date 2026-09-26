@@ -1,0 +1,116 @@
+[
+  {
+    "audience": "student",
+    "can_see": [
+      "signal_features",
+      "signal_snippets",
+      "trend",
+      "level",
+      "rule_basis",
+      "guardian_digest",
+      "audit",
+      "retention_certificate"
+    ],
+    "cannot_see": [
+      "raw_message",
+      "professional_digest",
+      "identity_real"
+    ],
+    "note": "你本人：可看自己的脱敏信号、等级、依据和收到的通知；看不到任何已被系统拒绝的原始留存。"
+  },
+  {
+    "audience": "guardian",
+    "can_see": [
+      "level",
+      "guardian_digest",
+      "retention_certificate"
+    ],
+    "cannot_see": [
+      "raw_message",
+      "signal_features",
+      "signal_snippets",
+      "trend",
+      "rule_basis",
+      "professional_digest",
+      "identity_real",
+      "audit"
+    ],
+    "note": "家长：只收到必要安全结论，看不到你的对话、特征值和短语片段。"
+  },
+  {
+    "audience": "teacher",
+    "can_see": [
+      "trend",
+      "level"
+    ],
+    "cannot_see": [
+      "raw_message",
+      "signal_features",
+      "signal_snippets",
+      "rule_basis",
+      "guardian_digest",
+      "professional_digest",
+      "identity_real",
+      "audit",
+      "retention_certificate"
+    ],
+    "note": "班主任：只看到等级与去标识趋势，用于日常关心。"
+  },
+  {
+    "audience": "counselor",
+    "can_see": [
+      "signal_features",
+      "signal_snippets",
+      "trend",
+      "level",
+      "rule_basis",
+      "professional_digest"
+    ],
+    "cannot_see": [
+      "raw_message",
+      "guardian_digest",
+      "identity_real",
+      "audit",
+      "retention_certificate"
+    ],
+    "note": "心理老师：在承接你的案件时，可看到脱敏信号、依据和接力记录；真实身份映射需另行授权留痕。"
+  },
+  {
+    "audience": "psychologist",
+    "can_see": [
+      "signal_features",
+      "signal_snippets",
+      "trend",
+      "level",
+      "rule_basis",
+      "professional_digest"
+    ],
+    "cannot_see": [
+      "raw_message",
+      "guardian_digest",
+      "identity_real",
+      "audit",
+      "retention_certificate"
+    ],
+    "note": "专职心理教师：紧急/严重情形下承接，可见范围与心理老师相同。"
+  },
+  {
+    "audience": "reviewer",
+    "can_see": [
+      "signal_features",
+      "trend",
+      "level",
+      "rule_basis",
+      "professional_digest",
+      "audit",
+      "retention_certificate"
+    ],
+    "cannot_see": [
+      "raw_message",
+      "signal_snippets",
+      "guardian_digest",
+      "identity_real"
+    ],
+    "note": "审查人员：可审查判定依据、接力是否及时、审计与删除证明。"
+  }
+]

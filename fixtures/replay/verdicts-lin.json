@@ -1,0 +1,109 @@
+[
+  {
+    "decided_at": "2026-09-02T20:00+08:00",
+    "level": "normal",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-03T20:00+08:00",
+    "level": "normal",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-04T20:00+08:00",
+    "level": "normal",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-07T20:00+08:00",
+    "level": "normal",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-08T20:00+08:00",
+    "level": "normal",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-10T19:00+08:00",
+    "level": "normal",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-11T19:00+08:00",
+    "level": "normal",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-11T22:30+08:00",
+    "level": "watch",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [
+      "[R-WATCH-01] 近14日孤立感3次≥70，呈持续孤立：isolation_score >= 70（近14日命中3次，观察值81.0）"
+    ],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-14T15:00+08:00",
+    "level": "urgent",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [
+      "[R-URG-01] 近3日出现自伤暗示：self_harm_phrase >= 1（近3日命中1次，观察值1.0）",
+      "[R-WATCH-01] 近14日孤立感3次≥70，呈持续孤立：isolation_score >= 70（近14日命中3次，观察值81.0）"
+    ],
+    "override_reason": null,
+    "staff_id": null
+  },
+  {
+    "decided_at": "2026-09-14T17:00+08:00",
+    "level": "watch",
+    "source": "manual-override",
+    "rule_pack_version": "risk-rules-v1",
+    "basis": [
+      "[R-URG-01] 近3日出现自伤暗示：self_harm_phrase >= 1（近3日命中1次，观察值1.0）",
+      "[R-WATCH-01] 近14日孤立感3次≥70，呈持续孤立：isolation_score >= 70（近14日命中3次，观察值81.0）"
+    ],
+    "override_reason": "复核：自伤词来自歌词创作，面对面谈话确认无自伤意图；保留周度关注",
+    "staff_id": "staff-4001"
+  },
+  {
+    "decided_at": "2026-09-25T08:30+08:00",
+    "level": "normal",
+    "source": "auto",
+    "rule_pack_version": "risk-rules-v2",
+    "basis": [],
+    "override_reason": null,
+    "staff_id": null
+  }
+]

@@ -1,0 +1,1005 @@
+{
+  "notice": "只追加哈希链；任一条目被改动，AuditLog.verify() 即失败。",
+  "entries": [
+    {
+      "seq": 1,
+      "at": "2026-09-01T09:00+08:00",
+      "actor": "guardian-7001",
+      "action": "consent-granted",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "scope": "ai-companion-care",
+        "school": "school-fenghe"
+      },
+      "prev_hash": "GENESIS",
+      "hash": "e60de3c361c5609771b1ca826caf1d437b134c026ce5e99bad30c09a147714d4"
+    },
+    {
+      "seq": 2,
+      "at": "2026-09-01T09:05+08:00",
+      "actor": "guardian-7002",
+      "action": "consent-granted",
+      "subject": "pseudo-he-14",
+      "evidence": {
+        "scope": "ai-companion-care",
+        "school": "school-fenghe"
+      },
+      "prev_hash": "e60de3c361c5609771b1ca826caf1d437b134c026ce5e99bad30c09a147714d4",
+      "hash": "38d09f1baa69d3cdeb00b64317ab0ad13d88460de42dc9383bddf1f400984e02"
+    },
+    {
+      "seq": 3,
+      "at": "2026-09-01T09:10+08:00",
+      "actor": "guardian-8001",
+      "action": "consent-granted",
+      "subject": "pseudo-mate-1",
+      "evidence": {
+        "scope": "ai-companion-care",
+        "school": "school-fenghe"
+      },
+      "prev_hash": "38d09f1baa69d3cdeb00b64317ab0ad13d88460de42dc9383bddf1f400984e02",
+      "hash": "d7e297896d74fb135ce144fb7e50c4aad0198e63cbcc79eee8a368679ffab821"
+    },
+    {
+      "seq": 4,
+      "at": "2026-09-01T09:10+08:00",
+      "actor": "guardian-8002",
+      "action": "consent-granted",
+      "subject": "pseudo-mate-2",
+      "evidence": {
+        "scope": "ai-companion-care",
+        "school": "school-fenghe"
+      },
+      "prev_hash": "d7e297896d74fb135ce144fb7e50c4aad0198e63cbcc79eee8a368679ffab821",
+      "hash": "d4f4bccdbe28d44c193356307f3ce89c2824e24fad7a07417e6612a9de28ee1c"
+    },
+    {
+      "seq": 5,
+      "at": "2026-09-01T09:10+08:00",
+      "actor": "guardian-8003",
+      "action": "consent-granted",
+      "subject": "pseudo-mate-3",
+      "evidence": {
+        "scope": "ai-companion-care",
+        "school": "school-fenghe"
+      },
+      "prev_hash": "d4f4bccdbe28d44c193356307f3ce89c2824e24fad7a07417e6612a9de28ee1c",
+      "hash": "163cec721b907b30d3f65e4b81ce53ee9c47a5254452915cc6f5aae5fe307b93"
+    },
+    {
+      "seq": 6,
+      "at": "2026-09-01T09:10+08:00",
+      "actor": "guardian-8004",
+      "action": "consent-granted",
+      "subject": "pseudo-mate-4",
+      "evidence": {
+        "scope": "ai-companion-care",
+        "school": "school-fenghe"
+      },
+      "prev_hash": "163cec721b907b30d3f65e4b81ce53ee9c47a5254452915cc6f5aae5fe307b93",
+      "hash": "7400a1e4dae771d1d20166ab9d5f71322d9aa61080bbc5fb01dbf15bad1105d8"
+    },
+    {
+      "seq": 7,
+      "at": "2026-09-01T09:10+08:00",
+      "actor": "guardian-8005",
+      "action": "consent-granted",
+      "subject": "pseudo-mate-5",
+      "evidence": {
+        "scope": "ai-companion-care",
+        "school": "school-fenghe"
+      },
+      "prev_hash": "7400a1e4dae771d1d20166ab9d5f71322d9aa61080bbc5fb01dbf15bad1105d8",
+      "hash": "a479cc5f6e227aa1c66ff614382ddfbee0695ec7f1956a4563739b5bfe73cff5"
+    },
+    {
+      "seq": 8,
+      "at": "2026-09-02T20:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "a479cc5f6e227aa1c66ff614382ddfbee0695ec7f1956a4563739b5bfe73cff5",
+      "hash": "6e9559bc858f72396aceed5f470906985f28c7f2b2eb152d3d9c4b0e99d1b2f0"
+    },
+    {
+      "seq": 9,
+      "at": "2026-09-03T20:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "6e9559bc858f72396aceed5f470906985f28c7f2b2eb152d3d9c4b0e99d1b2f0",
+      "hash": "2a18691627be802025096df72ed21da75abf33c331917a741d5b431e545069f8"
+    },
+    {
+      "seq": 10,
+      "at": "2026-09-04T20:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "2a18691627be802025096df72ed21da75abf33c331917a741d5b431e545069f8",
+      "hash": "294cd834e04f4dc72a077e4ee1e9e003f2b6ef0fe09a70309049f96d775c0959"
+    },
+    {
+      "seq": 11,
+      "at": "2026-09-07T20:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "294cd834e04f4dc72a077e4ee1e9e003f2b6ef0fe09a70309049f96d775c0959",
+      "hash": "8a999b3b14512603e875b863559c4f5db29013990517aca25eb40e965dcd6725"
+    },
+    {
+      "seq": 12,
+      "at": "2026-09-08T20:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "8a999b3b14512603e875b863559c4f5db29013990517aca25eb40e965dcd6725",
+      "hash": "857280f0c2b86e257c6974a603aad4f0b8846499338b0b313e81227970a01980"
+    },
+    {
+      "seq": 13,
+      "at": "2026-09-02T19:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-mate-1",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "857280f0c2b86e257c6974a603aad4f0b8846499338b0b313e81227970a01980",
+      "hash": "26775a3e690e6ce60334eadeb7ab19f275838faa646e727296f8016b9583883d"
+    },
+    {
+      "seq": 14,
+      "at": "2026-09-03T19:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-mate-2",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "26775a3e690e6ce60334eadeb7ab19f275838faa646e727296f8016b9583883d",
+      "hash": "83b2020362014275e83e70616674da7f8977412ed7498bcc52d9fed5f7f0e75c"
+    },
+    {
+      "seq": 15,
+      "at": "2026-09-04T19:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-mate-3",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "83b2020362014275e83e70616674da7f8977412ed7498bcc52d9fed5f7f0e75c",
+      "hash": "2f20aebec68250a3428bc908d9f1867f8512138b088031077a9a87bfc9e30b91"
+    },
+    {
+      "seq": 16,
+      "at": "2026-09-05T19:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-mate-4",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "2f20aebec68250a3428bc908d9f1867f8512138b088031077a9a87bfc9e30b91",
+      "hash": "6838becb4910f2c5c794774a4962716a09f9248887f8ffa52388897ecea10323"
+    },
+    {
+      "seq": 17,
+      "at": "2026-09-06T19:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-mate-5",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "6838becb4910f2c5c794774a4962716a09f9248887f8ffa52388897ecea10323",
+      "hash": "2584f78c6083fc9d6d423549df6d72751b605db9f094b5246b414fe48bbcaaed"
+    },
+    {
+      "seq": 18,
+      "at": "2026-09-10T19:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "2584f78c6083fc9d6d423549df6d72751b605db9f094b5246b414fe48bbcaaed",
+      "hash": "17aa51a39a064dfb252fc27ec9ad0f7f7ff3903fccf14205e497f3ed2d7e70c2"
+    },
+    {
+      "seq": 19,
+      "at": "2026-09-11T19:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "17aa51a39a064dfb252fc27ec9ad0f7f7ff3903fccf14205e497f3ed2d7e70c2",
+      "hash": "a4ed47bda3312b7439466127bd6c5cac76efabbec16e1d91b5db8a430d237325"
+    },
+    {
+      "seq": 20,
+      "at": "2026-09-11T22:30+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "watch",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [
+          "R-WATCH-01"
+        ],
+        "model": "companion-7.2",
+        "night": true,
+        "window": "evening"
+      },
+      "prev_hash": "a4ed47bda3312b7439466127bd6c5cac76efabbec16e1d91b5db8a430d237325",
+      "hash": "fb861458952cc0b7636d08634511eba8eceff47d63242563e03d077285946b68"
+    },
+    {
+      "seq": 21,
+      "at": "2026-09-11T22:30+08:00",
+      "actor": "system",
+      "action": "case-opened",
+      "subject": "case-14",
+      "evidence": {
+        "pseudo": "pseudo-lin-13",
+        "level": "watch"
+      },
+      "prev_hash": "fb861458952cc0b7636d08634511eba8eceff47d63242563e03d077285946b68",
+      "hash": "b9780080969d9193f66745ff592a30ec0f9e1a0860ec30efeb7d4db009f01a33"
+    },
+    {
+      "seq": 22,
+      "at": "2026-09-11T22:30+08:00",
+      "actor": "system",
+      "action": "night-review-queued",
+      "subject": "case-14",
+      "evidence": {
+        "level": "watch"
+      },
+      "prev_hash": "b9780080969d9193f66745ff592a30ec0f9e1a0860ec30efeb7d4db009f01a33",
+      "hash": "18472e89111738793acc0acfca0151173022120da4b5bf5b007406bec16dc0e4"
+    },
+    {
+      "seq": 23,
+      "at": "2026-09-14T07:30+08:00",
+      "actor": "duty-counselor",
+      "action": "night-review-routed",
+      "subject": "case-14",
+      "evidence": {
+        "queued_at": "2026-09-11T22:30+08:00",
+        "level": "watch"
+      },
+      "prev_hash": "18472e89111738793acc0acfca0151173022120da4b5bf5b007406bec16dc0e4",
+      "hash": "73f36b77dcb5e2e98477c2c148769e20f84481850efd543dd9fc9f43b687c320"
+    },
+    {
+      "seq": 24,
+      "at": "2026-09-14T08:10+08:00",
+      "actor": "staff-2001",
+      "action": "human-contact",
+      "subject": "case-14",
+      "evidence": {
+        "level": "watch",
+        "channel": "in-person",
+        "qualification": "teacher",
+        "note_minimal": "早自习后简短交谈，学生表示周末独自在家，已约同桌一起打球"
+      },
+      "prev_hash": "73f36b77dcb5e2e98477c2c148769e20f84481850efd543dd9fc9f43b687c320",
+      "hash": "9888d856f0982ea133f6442f32612cedb656e15227a5839dfc263b8a62ca006b"
+    },
+    {
+      "seq": 25,
+      "at": "2026-09-14T15:00+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "urgent",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [
+          "R-URG-01",
+          "R-WATCH-01"
+        ],
+        "model": "companion-7.2",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "9888d856f0982ea133f6442f32612cedb656e15227a5839dfc263b8a62ca006b",
+      "hash": "9abc3f23879b5898212700308f4b958198d8c1d352ebf37d8f3e8bf0410563d1"
+    },
+    {
+      "seq": 26,
+      "at": "2026-09-14T15:00+08:00",
+      "actor": "system",
+      "action": "escalation",
+      "subject": "case-14",
+      "evidence": {
+        "to_level": "urgent",
+        "deadline_at": "2026-09-15T15:00+08:00",
+        "rule_pack": "risk-rules-v1"
+      },
+      "prev_hash": "9abc3f23879b5898212700308f4b958198d8c1d352ebf37d8f3e8bf0410563d1",
+      "hash": "50e67d7afabedca54ac4dcdebce44e2b451ef4af00912de0ca40db0cdfaf0feb"
+    },
+    {
+      "seq": 27,
+      "at": "2026-09-14T15:00+08:00",
+      "actor": "staff-3001",
+      "action": "staff-assigned",
+      "subject": "case-14",
+      "evidence": {
+        "level": "urgent",
+        "can_unmask": true,
+        "qualification": "counselor",
+        "trigger": "auto"
+      },
+      "prev_hash": "50e67d7afabedca54ac4dcdebce44e2b451ef4af00912de0ca40db0cdfaf0feb",
+      "hash": "563fa7f6fc68324c1c36877fa9b4d36325d8448f72668c8da4dfb2a444350898"
+    },
+    {
+      "seq": 28,
+      "at": "2026-09-14T15:00+08:00",
+      "actor": "system",
+      "action": "guardian-notified",
+      "subject": "case-14",
+      "evidence": {
+        "level": "urgent",
+        "dedup_key": "guardian:case-14:leg2:urgent",
+        "sent_count": 1
+      },
+      "prev_hash": "563fa7f6fc68324c1c36877fa9b4d36325d8448f72668c8da4dfb2a444350898",
+      "hash": "e0675afdf290384964bfc014657882437aeb01a9a09fcd0480f5e086199065e4"
+    },
+    {
+      "seq": 29,
+      "at": "2026-09-14T16:20+08:00",
+      "actor": "staff-3001",
+      "action": "human-contact",
+      "subject": "case-14",
+      "evidence": {
+        "level": "urgent",
+        "channel": "in-person",
+        "qualification": "counselor",
+        "note_minimal": "学生主动说明是歌词创作；面谈情绪平稳，仍约定本周持续关心"
+      },
+      "prev_hash": "e0675afdf290384964bfc014657882437aeb01a9a09fcd0480f5e086199065e4",
+      "hash": "8d0839f8bb8cdddc74eeb709131f692a7240bf9339a2b919120fb863c72e9b75"
+    },
+    {
+      "seq": 30,
+      "at": "2026-09-14T17:00+08:00",
+      "actor": "staff-4001",
+      "action": "manual-deescalation",
+      "subject": "case-14",
+      "evidence": {
+        "to_level": "watch",
+        "reason": "复核：自伤词来自歌词创作，面对面谈话确认无自伤意图；保留周度关注",
+        "deadline_at": "2026-09-15T12:00+08:00"
+      },
+      "prev_hash": "8d0839f8bb8cdddc74eeb709131f692a7240bf9339a2b919120fb863c72e9b75",
+      "hash": "cc4e60085a67ef487c061ae16004c486f60d4aba660cba7f5fb926e32137333d"
+    },
+    {
+      "seq": 31,
+      "at": "2026-09-14T17:00+08:00",
+      "actor": "staff-2001",
+      "action": "staff-assigned",
+      "subject": "case-14",
+      "evidence": {
+        "level": "watch",
+        "can_unmask": false,
+        "qualification": "teacher",
+        "trigger": "manual"
+      },
+      "prev_hash": "cc4e60085a67ef487c061ae16004c486f60d4aba660cba7f5fb926e32137333d",
+      "hash": "3b67f92613eddb32a3a605ffb542c351872b42a5e0de89fa9761119a85f19171"
+    },
+    {
+      "seq": 32,
+      "at": "2026-09-14T17:00+08:00",
+      "actor": "staff-4001",
+      "action": "verdict-override",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "new_level": "watch",
+        "reason": "复核：自伤词来自歌词创作，面对面谈话确认无自伤意图；保留周度关注",
+        "role": "psychologist",
+        "rule_pack": "risk-rules-v1"
+      },
+      "prev_hash": "3b67f92613eddb32a3a605ffb542c351872b42a5e0de89fa9761119a85f19171",
+      "hash": "2319f54f22b3e4ca7d748cf004473d018780962e39c139cff174ed6cd3872dca"
+    },
+    {
+      "seq": 33,
+      "at": "2026-09-15T10:00+08:00",
+      "actor": "staff-2001",
+      "action": "human-contact",
+      "subject": "case-14",
+      "evidence": {
+        "level": "watch",
+        "channel": "in-person",
+        "qualification": "teacher",
+        "note_minimal": "课间邀请加入社团招新，学生接受"
+      },
+      "prev_hash": "2319f54f22b3e4ca7d748cf004473d018780962e39c139cff174ed6cd3872dca",
+      "hash": "c678d4709fc4bb38bd511fdb7c9954cb8647387a50ce03e303b553eba24a886d"
+    },
+    {
+      "seq": 34,
+      "at": "2026-09-16T23:05+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-he-14",
+      "evidence": {
+        "level": "emergency",
+        "rule_pack": "risk-rules-v1",
+        "matched_rules": [
+          "R-EMER-02",
+          "R-URG-01"
+        ],
+        "model": "companion-7.2",
+        "night": true,
+        "window": "evening"
+      },
+      "prev_hash": "c678d4709fc4bb38bd511fdb7c9954cb8647387a50ce03e303b553eba24a886d",
+      "hash": "c6f5e4f8026bf3c7496d5107bc9e3e48d6f4161e33123cee9503e93cad92867a"
+    },
+    {
+      "seq": 35,
+      "at": "2026-09-16T23:05+08:00",
+      "actor": "system",
+      "action": "case-opened",
+      "subject": "case-17",
+      "evidence": {
+        "pseudo": "pseudo-he-14",
+        "level": "emergency"
+      },
+      "prev_hash": "c6f5e4f8026bf3c7496d5107bc9e3e48d6f4161e33123cee9503e93cad92867a",
+      "hash": "86fa0902e71654d4e0f0a6a12e058cbd02126e18f538af7e5aceb9ed08c00bf8"
+    },
+    {
+      "seq": 36,
+      "at": "2026-09-16T23:05+08:00",
+      "actor": "staff-4002",
+      "action": "staff-assigned",
+      "subject": "case-17",
+      "evidence": {
+        "level": "emergency",
+        "can_unmask": true,
+        "qualification": "psychologist",
+        "trigger": "auto"
+      },
+      "prev_hash": "86fa0902e71654d4e0f0a6a12e058cbd02126e18f538af7e5aceb9ed08c00bf8",
+      "hash": "1515f8a462c86879d303d6e6a95ec1bf59a7ea5f609f8fbfe6489889b3561458"
+    },
+    {
+      "seq": 37,
+      "at": "2026-09-16T23:05+08:00",
+      "actor": "system",
+      "action": "guardian-notified",
+      "subject": "case-17",
+      "evidence": {
+        "level": "emergency",
+        "dedup_key": "guardian:case-17:leg1:emergency",
+        "sent_count": 1
+      },
+      "prev_hash": "1515f8a462c86879d303d6e6a95ec1bf59a7ea5f609f8fbfe6489889b3561458",
+      "hash": "e119cb2fbd9fca42bdb0ea708a08ea83a3016459ea36c83d011f777597ba752a"
+    },
+    {
+      "seq": 38,
+      "at": "2026-09-16T23:22+08:00",
+      "actor": "staff-4002",
+      "action": "human-contact",
+      "subject": "case-17",
+      "evidence": {
+        "level": "emergency",
+        "channel": "voice-call",
+        "qualification": "psychologist",
+        "note_minimal": "夜间语音陪伴至情绪平复，约定次日家访"
+      },
+      "prev_hash": "e119cb2fbd9fca42bdb0ea708a08ea83a3016459ea36c83d011f777597ba752a",
+      "hash": "3a74d09f44518e6ec3948383e97831e163ddc03ed6c58a7ecdb1c25b7d839b26"
+    },
+    {
+      "seq": 39,
+      "at": "2026-09-17T09:00+08:00",
+      "actor": "reviewer-001",
+      "action": "case-reviewed",
+      "subject": "case-17",
+      "evidence": {
+        "role": "reviewer"
+      },
+      "prev_hash": "3a74d09f44518e6ec3948383e97831e163ddc03ed6c58a7ecdb1c25b7d839b26",
+      "hash": "ab314c2f62ad7fb151a7e8d5b7b044740f1eb27b43e0151f9b40086933128c21"
+    },
+    {
+      "seq": 40,
+      "at": "2026-09-18T08:00+08:00",
+      "actor": "guardian-7002",
+      "action": "consent-withdrawn",
+      "subject": "pseudo-he-14",
+      "evidence": {
+        "reason": "家长希望先暂停AI陪伴",
+        "open_carried_on": true
+      },
+      "prev_hash": "ab314c2f62ad7fb151a7e8d5b7b044740f1eb27b43e0151f9b40086933128c21",
+      "hash": "07f349eecaa2b5066f51927fba037a8df452c9e55befdc8614f0f6146a199b90"
+    },
+    {
+      "seq": 41,
+      "at": "2026-09-18T20:00+08:00",
+      "actor": "system",
+      "action": "ingest-rejected",
+      "subject": "pseudo-he-14",
+      "evidence": {
+        "reason": "consent-not-granted"
+      },
+      "prev_hash": "07f349eecaa2b5066f51927fba037a8df452c9e55befdc8614f0f6146a199b90",
+      "hash": "aeda4e2f5fef6e27077f0326ddee008ea7ec6ee4036270a707d4b3358b261666"
+    },
+    {
+      "seq": 42,
+      "at": "2026-09-20T09:00+08:00",
+      "actor": "compliance-001",
+      "action": "rule-pack-published",
+      "subject": "risk-rules-v2",
+      "evidence": {
+        "rule_codes": [
+          "R-EMER-01",
+          "R-EMER-02",
+          "R-URG-01",
+          "R-WATCH-01",
+          "R-WATCH-02"
+        ],
+        "previous_version": "risk-rules-v1"
+      },
+      "prev_hash": "aeda4e2f5fef6e27077f0326ddee008ea7ec6ee4036270a707d4b3358b261666",
+      "hash": "674e207fd361fb004ed86c4ffbebbcf176bd82ca6f37e69889649b0fed77eed8"
+    },
+    {
+      "seq": 43,
+      "at": "2026-09-25T00:00+08:00",
+      "actor": "ops-system",
+      "action": "model-retired",
+      "subject": "companion-7.2",
+      "evidence": {
+        "retired_at": "2026-09-25T00:00+08:00"
+      },
+      "prev_hash": "674e207fd361fb004ed86c4ffbebbcf176bd82ca6f37e69889649b0fed77eed8",
+      "hash": "6f74677116e431dbc803a9c639711de33d7e76858696a9513673cfacebb399cd"
+    },
+    {
+      "seq": 44,
+      "at": "2026-09-25T08:00+08:00",
+      "actor": "system",
+      "action": "ingest-rejected",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "reason": "model-not-registered",
+        "model": "companion-7.2"
+      },
+      "prev_hash": "6f74677116e431dbc803a9c639711de33d7e76858696a9513673cfacebb399cd",
+      "hash": "ba6fb976d0a8741542972b8462c911925b448a021e1bdb6fbb76933dfc9c8ca7"
+    },
+    {
+      "seq": 45,
+      "at": "2026-09-25T08:30+08:00",
+      "actor": "system",
+      "action": "auto-verdict",
+      "subject": "pseudo-lin-13",
+      "evidence": {
+        "level": "normal",
+        "rule_pack": "risk-rules-v2",
+        "matched_rules": [],
+        "model": "companion-7.3",
+        "night": false,
+        "window": "evening"
+      },
+      "prev_hash": "ba6fb976d0a8741542972b8462c911925b448a021e1bdb6fbb76933dfc9c8ca7",
+      "hash": "09d037690513c5b69179490b074908171d061126dafa8124cd2bed5b1bba4497"
+    },
+    {
+      "seq": 46,
+      "at": "2026-09-25T10:00+08:00",
+      "actor": "staff-3001",
+      "action": "referral-requested",
+      "subject": "ref-0007",
+      "evidence": {
+        "pseudo": "pseudo-lin-13",
+        "to_school": "school-linhai",
+        "open_level": "watch"
+      },
+      "prev_hash": "09d037690513c5b69179490b074908171d061126dafa8124cd2bed5b1bba4497",
+      "hash": "80f4e8b7db81b42e0f21ac424e4df944c53d7120c0bd74fe60d0a5dbb56442d5"
+    },
+    {
+      "seq": 47,
+      "at": "2026-09-25T11:00+08:00",
+      "actor": "system",
+      "action": "referral-accepted",
+      "subject": "ref-0007",
+      "evidence": {
+        "pseudo": "pseudo-lin-13",
+        "guardian_id": "guardian-7001"
+      },
+      "prev_hash": "80f4e8b7db81b42e0f21ac424e4df944c53d7120c0bd74fe60d0a5dbb56442d5",
+      "hash": "2c363d046ccaab38fb3df9f3afc44f0b34fb1b526adab11ffce477252f0c95ee"
+    },
+    {
+      "seq": 48,
+      "at": "2026-09-26T09:00+08:00",
+      "actor": "staff-5001",
+      "action": "transfer-assigned",
+      "subject": "case-19",
+      "evidence": {
+        "level": "watch",
+        "staff": "staff-2001",
+        "qualification": "teacher"
+      },
+      "prev_hash": "2c363d046ccaab38fb3df9f3afc44f0b34fb1b526adab11ffce477252f0c95ee",
+      "hash": "f580861a6cf4174b12214525cb0971184263eecec1499df64d382bfd316ec650"
+    },
+    {
+      "seq": 49,
+      "at": "2026-09-26T09:00+08:00",
+      "actor": "staff-5001",
+      "action": "referral-completed",
+      "subject": "ref-0007",
+      "evidence": {
+        "new_case_id": "case-19"
+      },
+      "prev_hash": "f580861a6cf4174b12214525cb0971184263eecec1499df64d382bfd316ec650",
+      "hash": "30734d2b803e0ac34ff7f20234fe86afb4fe9ceeb183bb9752eca95debe7280f"
+    },
+    {
+      "seq": 50,
+      "at": "2026-09-26T09:30+08:00",
+      "actor": "reviewer-001",
+      "action": "case-reviewed",
+      "subject": "case-19",
+      "evidence": {
+        "role": "reviewer"
+      },
+      "prev_hash": "30734d2b803e0ac34ff7f20234fe86afb4fe9ceeb183bb9752eca95debe7280f",
+      "hash": "de9f2759b37fcd16176dfe6c9514a7f1460e9859a2f11a73d2f1db22587fd8b7"
+    },
+    {
+      "seq": 51,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-1",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-01T20:00+08:00",
+        "digest_before_purge": "c545460331de662bb8f58daac7605438bd179007752447acfa184aa3bc8ccf7d",
+        "erased": true
+      },
+      "prev_hash": "de9f2759b37fcd16176dfe6c9514a7f1460e9859a2f11a73d2f1db22587fd8b7",
+      "hash": "5a1e8593cfb698bc3730c11dd0bf07d140d101bf0088404623331bb555a4d8d4"
+    },
+    {
+      "seq": 52,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-2",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-02T20:00+08:00",
+        "digest_before_purge": "e30fe64f0a1d613905e0f0214937ec145cff6c1f44d7d1f6d345f41a51d30c8e",
+        "erased": true
+      },
+      "prev_hash": "5a1e8593cfb698bc3730c11dd0bf07d140d101bf0088404623331bb555a4d8d4",
+      "hash": "f4939750cafa9a3469a3d5a2fbb5871eecf96da6b3a7b0427f56b1bada95e6a6"
+    },
+    {
+      "seq": 53,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-3",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-03T20:00+08:00",
+        "digest_before_purge": "1930602bd49a5df23389b0747f94e2c12c70532810b58af1a4a78f5086ab4749",
+        "erased": true
+      },
+      "prev_hash": "f4939750cafa9a3469a3d5a2fbb5871eecf96da6b3a7b0427f56b1bada95e6a6",
+      "hash": "40b36ecdfc78e16665ba391871e198a3d65a299825e1560246c21b221d17b313"
+    },
+    {
+      "seq": 54,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-4",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-06T20:00+08:00",
+        "digest_before_purge": "1f8dce87bfac0ae71ffba245f43958b1df7f907d784562f011d8a4c84f6805fc",
+        "erased": true
+      },
+      "prev_hash": "40b36ecdfc78e16665ba391871e198a3d65a299825e1560246c21b221d17b313",
+      "hash": "22d9e4ad80318affd333d83505597dfe2cbd56e99ff289bb54e37f21960092b0"
+    },
+    {
+      "seq": 55,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-5",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-07T20:00+08:00",
+        "digest_before_purge": "e77b43d15d8f78174748d291fb76606d590003aaa41de1852bbec7be99455161",
+        "erased": true
+      },
+      "prev_hash": "22d9e4ad80318affd333d83505597dfe2cbd56e99ff289bb54e37f21960092b0",
+      "hash": "3a130692dc0b0b56c3279812f9b6aef31c9f8992e875ea481542ff5512a91ecf"
+    },
+    {
+      "seq": 56,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-6",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-mate-1",
+        "expires_at": "2026-12-01T19:00+08:00",
+        "digest_before_purge": "7d05ff695d764c0ef1f3e276f173879d4eae88372c4ab0ef26fc8e2f6d88e249",
+        "erased": true
+      },
+      "prev_hash": "3a130692dc0b0b56c3279812f9b6aef31c9f8992e875ea481542ff5512a91ecf",
+      "hash": "64af94551aecb1cb9d65827373eaffc85aab0149e8101bb2f748c294f062842b"
+    },
+    {
+      "seq": 57,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-7",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-mate-2",
+        "expires_at": "2026-12-02T19:00+08:00",
+        "digest_before_purge": "7e12a60920e5c0d556496798253c7aca997a088eb462e15a1816aba1bac7ad81",
+        "erased": true
+      },
+      "prev_hash": "64af94551aecb1cb9d65827373eaffc85aab0149e8101bb2f748c294f062842b",
+      "hash": "453d78b911ace8858ea2b946571182790d2cae5bee9232e3925dcdc8c1f8ec37"
+    },
+    {
+      "seq": 58,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-8",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-mate-3",
+        "expires_at": "2026-12-03T19:00+08:00",
+        "digest_before_purge": "5f835bd2a6b82ca810e2d557d51572d01c909ae719f8f0d950941999c757cc8b",
+        "erased": true
+      },
+      "prev_hash": "453d78b911ace8858ea2b946571182790d2cae5bee9232e3925dcdc8c1f8ec37",
+      "hash": "353144aa78ea2d994dfa8ba85b4b9c011b0738a04db18d1d7127c0324ac68d9c"
+    },
+    {
+      "seq": 59,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-9",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-mate-4",
+        "expires_at": "2026-12-04T19:00+08:00",
+        "digest_before_purge": "3d5fac800b53c12a18b468f491f0101be82aeb98efe3a1ceb8ebd65d776bd0ab",
+        "erased": true
+      },
+      "prev_hash": "353144aa78ea2d994dfa8ba85b4b9c011b0738a04db18d1d7127c0324ac68d9c",
+      "hash": "d7d98cbc5d08d65c5404e0a15bbf1452b59a7933d8debbe0081dad2752f55a37"
+    },
+    {
+      "seq": 60,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-10",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-mate-5",
+        "expires_at": "2026-12-05T19:00+08:00",
+        "digest_before_purge": "25d65ad45340f8ead4ad5ee4fb9d18fccee3f6de25d64e5729418b24e2fb8da1",
+        "erased": true
+      },
+      "prev_hash": "d7d98cbc5d08d65c5404e0a15bbf1452b59a7933d8debbe0081dad2752f55a37",
+      "hash": "e7dfd9db6ab266b8cd2a28abf1f0cf9a313217a3314dd52d36bda77adad90cef"
+    },
+    {
+      "seq": 61,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-11",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-09T19:00+08:00",
+        "digest_before_purge": "f69bbecc9973f58afdc8a6093bebaad96733f70b6bc5a3bdc0f5d5a1119cd45d",
+        "erased": true
+      },
+      "prev_hash": "e7dfd9db6ab266b8cd2a28abf1f0cf9a313217a3314dd52d36bda77adad90cef",
+      "hash": "9f50fc7a08d1765898c9cf1b1d4105f46c48b01f8ea5bca24c6805d0f1113555"
+    },
+    {
+      "seq": 62,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-12",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-10T19:00+08:00",
+        "digest_before_purge": "13914cfec9fe01f7299706c4493241e29c96790bf96b3da9fd06434c2096427a",
+        "erased": true
+      },
+      "prev_hash": "9f50fc7a08d1765898c9cf1b1d4105f46c48b01f8ea5bca24c6805d0f1113555",
+      "hash": "937a7bb14e77bc5c51148fa337b375b977c6ec0fd85e65133b20fc0ce2277e67"
+    },
+    {
+      "seq": 63,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-13",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-10T22:30+08:00",
+        "digest_before_purge": "c57a4779c639cc5f09be47e6a96a5630bbf4cfd1d3bbd28fdce3f982ceef52dd",
+        "erased": true
+      },
+      "prev_hash": "937a7bb14e77bc5c51148fa337b375b977c6ec0fd85e65133b20fc0ce2277e67",
+      "hash": "8fb3e65626c2fb01eabab289f3b97d16fae95af3f642c073f37518aadd5eed65"
+    },
+    {
+      "seq": 64,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-15",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-13T15:00+08:00",
+        "digest_before_purge": "d72acc3e0c0055d3122a47cc334dce96faaa42a6d94a939376cb66cd0c54b43a",
+        "erased": true
+      },
+      "prev_hash": "8fb3e65626c2fb01eabab289f3b97d16fae95af3f642c073f37518aadd5eed65",
+      "hash": "6515880b50e6effcd8a89bec8f629d6071b08f0cee26d2aa89eae488ac491348"
+    },
+    {
+      "seq": 65,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-16",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-he-14",
+        "expires_at": "2026-12-15T23:05+08:00",
+        "digest_before_purge": "f12f9058020aa91f74daed9c90244bb693f2439c88c68aa67ad1d7dc682de135",
+        "erased": true
+      },
+      "prev_hash": "6515880b50e6effcd8a89bec8f629d6071b08f0cee26d2aa89eae488ac491348",
+      "hash": "bedcc7608a347758a9e0fb1908d4f91c2f66321361787920769e1c31e865b0e1"
+    },
+    {
+      "seq": 66,
+      "at": "2026-12-26T00:00+08:00",
+      "actor": "system",
+      "action": "data-purged",
+      "subject": "signal-18",
+      "evidence": {
+        "kind": "signal",
+        "pseudo": "pseudo-lin-13",
+        "expires_at": "2026-12-24T08:30+08:00",
+        "digest_before_purge": "c717fca667ac5b690e8aa57d80c79eb770f3ea17f47de745a1014b81fd9f89d8",
+        "erased": true
+      },
+      "prev_hash": "bedcc7608a347758a9e0fb1908d4f91c2f66321361787920769e1c31e865b0e1",
+      "hash": "48b06c4f14b4ebf1b8622c0f8db92eeefc78e8ade5854d1643de62f4c5db35e4"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "withdrawn_consent_rejected": {
+    "at": "2026-09-18T20:00+08:00",
+    "reason": "监护授权未授予或已撤回，拒绝入域"
+  },
+  "retired_model_rejected": {
+    "at": "2026-09-25T08:00+08:00",
+    "reason": "模型版本 companion-7.2 未登记或已停用，拒绝入域"
+  }
+}

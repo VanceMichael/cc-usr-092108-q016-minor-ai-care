@@ -1,0 +1,20 @@
+{
+  "guardian-7001": [
+    {
+      "pseudo": "pseudo-lin-13",
+      "at": "2026-09-14T15:00+08:00",
+      "safety_conclusion": "孩子近期情绪信号值得关注，学校心理老师已安排面对面谈话并会持续陪伴；建议您在家中给予温和关心，无需追问聊天内容。",
+      "attempts": 6,
+      "delivered_once": true
+    }
+  ],
+  "guardian-7002": [
+    {
+      "pseudo": "pseudo-he-14",
+      "at": "2026-09-16T23:05+08:00",
+      "safety_conclusion": "【紧急安全提醒】我们注意到孩子此刻可能处于需要立即关心的状态，学校专职心理教师已在第一时间陪伴并采取保护措施，请您尽快与学校联系。",
+      "attempts": 1,
+      "delivered_once": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "notice": "本文件全部为虚构样例，不含任何真实个人信息、账号、密钥或连接凭据。",
+  "schools": [
+    {
+      "school_id": "school-fenghe",
+      "name": "丰和中学（虚构）",
+      "service_start": "07:00",
+      "service_end": "22:00",
+      "night_coverage": true
+    },
+    {
+      "school_id": "school-linhai",
+      "name": "临海中学（虚构）",
+      "service_start": "07:00",
+      "service_end": "22:00",
+      "night_coverage": false
+    }
+  ],
+  "models": [
+    {
+      "version": "companion-7.2",
+      "extractor_version": "extractor-3.1",
+      "registered_at": "2026-08-01T00:00+08:00",
+      "retired_at": null
+    },
+    {
+      "version": "companion-7.3",
+      "extractor_version": "extractor-3.2",
+      "registered_at": "2026-09-15T00:00+08:00",
+      "retired_at": null
+    }
+  ],
+  "roster": {
+    "school-fenghe": {
+      "day": [
+        {"staff_id": "staff-2001", "name": "王老师（虚构）", "qualification": "teacher", "can_unmask": false},
+        {"staff_id": "staff-3001", "name": "陈心理老师（虚构）", "qualification": "counselor", "can_unmask": true},
+        {"staff_id": "staff-4001", "name": "周专职心理教师（虚构）", "qualification": "psychologist", "can_unmask": true}
+      ],
+      "night": [
+        {"staff_id": "staff-3002", "name": "夜班心理老师（虚构）", "qualification": "counselor", "can_unmask": true},
+        {"staff_id": "staff-4002", "name": "夜间专职心理教师（虚构）", "qualification": "psychologist", "can_unmask": true}
+      ]
+    },
+    "school-linhai": {
+      "day": [
+        {"staff_id": "staff-5001", "name": "赵老师（虚构）", "qualification": "teacher", "can_unmask": false}
+      ],
+      "night": []
+    }
+  },
+  "students": [
+    {"pseudo": "pseudo-lin-13", "school_id": "school-fenghe", "age": 13, "grade": "初一", "guardian_id": "guardian-7001"},
+    {"pseudo": "pseudo-he-14", "school_id": "school-fenghe", "age": 14, "grade": "初二", "guardian_id": "guardian-7002"},
+    {"pseudo": "pseudo-mate-1", "school_id": "school-fenghe", "age": 13, "grade": "初一", "guardian_id": "guardian-8001"},
+    {"pseudo": "pseudo-mate-2", "school_id": "school-fenghe", "age": 13, "grade": "初一", "guardian_id": "guardian-8002"},
+    {"pseudo": "pseudo-mate-3", "school_id": "school-fenghe", "age": 13, "grade": "初一", "guardian_id": "guardian-8003"},
+    {"pseudo": "pseudo-mate-4", "school_id": "school-fenghe", "age": 13, "grade": "初一", "guardian_id": "guardian-8004"},
+    {"pseudo": "pseudo-mate-5", "school_id": "school-fenghe", "age": 13, "grade": "初一", "guardian_id": "guardian-8005"}
+  ],
+  "consents": [
+    {"pseudo": "pseudo-lin-13", "guardian_id": "guardian-7001", "at": "2026-09-01T09:00+08:00", "method": "signed-form-v1"},
+    {"pseudo": "pseudo-he-14", "guardian_id": "guardian-7002", "at": "2026-09-01T09:05+08:00", "method": "signed-form-v1"},
+    {"pseudo": "pseudo-mate-1", "guardian_id": "guardian-8001", "at": "2026-09-01T09:10+08:00", "method": "signed-form-v1"},
+    {"pseudo": "pseudo-mate-2", "guardian_id": "guardian-8002", "at": "2026-09-01T09:10+08:00", "method": "signed-form-v1"},
+    {"pseudo": "pseudo-mate-3", "guardian_id": "guardian-8003", "at": "2026-09-01T09:10+08:00", "method": "signed-form-v1"},
+    {"pseudo": "pseudo-mate-4", "guardian_id": "guardian-8004", "at": "2026-09-01T09:10+08:00", "method": "signed-form-v1"},
+    {"pseudo": "pseudo-mate-5", "guardian_id": "guardian-8005", "at": "2026-09-01T09:10+08:00", "method": "signed-form-v1"}
+  ]
+}
