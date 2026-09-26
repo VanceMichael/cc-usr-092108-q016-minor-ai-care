@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "治理动作可核验证书",
+  "type": "object",
+  "required": ["cert_id", "kind", "issued_at", "payload", "payload_hash", "chain_head"],
+  "properties": {
+    "cert_id": { "type": "string" },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "consent.revoked",
+        "student.referred",
+        "rules.switched",
+        "night.handoff",
+        "data.expired"
+      ]
+    },
+    "issued_at": { "type": "string", "format": "date-time" },
+    "payload": { "type": "object" },
+    "payload_hash": {
+      "type": "string",
+      "description": "canonical JSON 的 SHA-256，重算可验真伪"
+    },
+    "chain_head": {
+      "type": "string",
+      "description": "签发时哈希链链头；校验只重放到该点为止的链前缀"
+    }
+  },
+  "additionalProperties": false
+}

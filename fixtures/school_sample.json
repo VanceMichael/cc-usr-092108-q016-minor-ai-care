@@ -1,0 +1,41 @@
+{
+  "sample_id": "school-sample-fuxing-01",
+  "note": "完全虚构的学校与监护关系样例，不含真实个人信息",
+  "school_id": "school-fuxing-01",
+  "night_duty_school_id": "school-district-night-duty",
+  "model_versions": [
+    {
+      "model_version": "companion-q3-2026",
+      "deployed_at": "2026-09-01T00:00:00",
+      "notes": "未成年人陪伴模型 Q3 版本，禁用开放域角色扮演"
+    }
+  ],
+  "students": [
+    {
+      "student_id": "stu-2026-0117",
+      "display_name": "小禾",
+      "age": 14,
+      "model_version": "companion-q3-2026",
+      "service_window": { "weekday_start_hour": 7, "weekday_end_hour": 22 },
+      "guardian_consent": {
+        "guardian_id": "guardian-li",
+        "scope": ["safety_conclusion"],
+        "granted_at": "2026-08-20T00:00:00",
+        "valid_from": "2026-08-20",
+        "valid_until": null
+      }
+    }
+  ],
+  "staff": [
+    { "staff_id": "staff-careteacher-chen", "qualification": "德育关怀教师", "levels": [1] },
+    { "staff_id": "staff-counselor-zhao", "qualification": "中小学心理教师（中级）", "levels": [2] },
+    { "staff_id": "staff-crisis-wang", "qualification": "危机干预资质社工", "levels": [2, 3] },
+    { "staff_id": "staff-night-li", "qualification": "夜间值守持证心理教师", "levels": [1, 2, 3], "night": true }
+  ],
+  "visibility_contract": {
+    "raw_chat_leaves_device": false,
+    "guardian_receives": "safety_conclusion_only",
+    "routine_signals_kept_as": "deidentified_weekly_trend",
+    "relay_must_be": "qualified_human_contact"
+  }
+}

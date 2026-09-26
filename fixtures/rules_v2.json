@@ -1,0 +1,53 @@
+{
+  "version": "rules-2026-v2",
+  "window_days": 14,
+  "issued_at": "2026-09-20T00:00:00",
+  "supersedes": "rules-2026-v1",
+  "rules": [
+    {
+      "rule_id": "R-ISOLATION-01",
+      "level": 1,
+      "weight": 2,
+      "any_terms": ["只有你懂我", "没人理我", "不想去学校", "一个人", "没有人可以说"],
+      "all_features": ["ai_primary_attachment", "isolation_days_4+"],
+      "min_days_in_window": 1,
+      "reason": "v2提高持续阈值：陪伴端本地统计14天窗口内至少4天表达孤独/退缩（窗口明细不出设备），且AI为主要倾诉对象"
+    },
+    {
+      "rule_id": "R-SELFHARM-01",
+      "level": 2,
+      "weight": 4,
+      "any_terms": ["不想活", "割", "伤害自己", "消失就好了", "撑不下去", "了结自己"],
+      "all_features": [],
+      "min_days_in_window": 1,
+      "reason": "出现自伤暗示用语，需要有资质人员评估（v2扩充措辞库，仍不直接等同自伤计划）"
+    },
+    {
+      "rule_id": "R-SELFHARM-02",
+      "level": 2,
+      "weight": 3,
+      "any_terms": [],
+      "all_features": ["self_harm_keyphrase", "negative_emotion"],
+      "min_days_in_window": 1,
+      "reason": "陪伴端结构化模型检出自伤关键短语并伴负面情绪"
+    },
+    {
+      "rule_id": "R-IMMINENT-01",
+      "level": 3,
+      "weight": 5,
+      "any_terms": ["现在就想", "今晚", "已经准备好", "再见了", "最后一次"],
+      "all_features": ["self_harm_keyphrase"],
+      "min_days_in_window": 1,
+      "reason": "自伤暗示叠加即时性/告别性表达，提示迫在眉睫的现实伤害"
+    },
+    {
+      "rule_id": "R-IMMINENT-02",
+      "level": 3,
+      "weight": 5,
+      "any_terms": [],
+      "all_features": ["imminent_plan", "means_available"],
+      "min_days_in_window": 1,
+      "reason": "陪伴端检出明确的即时计划且表示工具/手段可得"
+    }
+  ]
+}

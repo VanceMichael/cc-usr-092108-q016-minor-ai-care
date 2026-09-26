@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "未成年人AI陪伴风险规则集",
+  "type": "object",
+  "required": ["version", "window_days", "issued_at", "rules"],
+  "properties": {
+    "version": { "type": "string", "minLength": 1 },
+    "window_days": { "type": "integer", "minimum": 1 },
+    "issued_at": { "type": "string", "format": "date-time" },
+    "supersedes": { "type": ["string", "null"] },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["rule_id", "level", "reason"],
+        "properties": {
+          "rule_id": { "type": "string", "minLength": 1 },
+          "level": { "type": "integer", "minimum": 0, "maximum": 3 },
+          "weight": { "type": "integer", "minimum": 1 },
+          "any_terms": { "type": "array", "items": { "type": "string" } },
+          "all_features": { "type": "array", "items": { "type": "string" } },
+          "min_days_in_window": { "type": "integer", "minimum": 1 },
+          "reason": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
